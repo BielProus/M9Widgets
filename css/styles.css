@@ -1,0 +1,37 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.card-img-top {
+    transition: opacity 0.8s ease-in-out;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-img-top:hover {
+    transform: scale(1.02);
+}
+
+.card-img-top.visible {
+    animation: fadeIn 0.8s forwards;
+}
+
+.card-title {
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.carousel-img {
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+  
